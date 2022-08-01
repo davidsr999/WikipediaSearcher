@@ -1,0 +1,6 @@
+<div class="article">
+    <a [href]="'http://en.wikipedia.org/wiki?curid='+ article.pageid "
+    target="_blank">
+{{article.title}}</a>
+    <p  [innerHTML]="article.snippet">{{article.snippet}}</p>
+</div>
